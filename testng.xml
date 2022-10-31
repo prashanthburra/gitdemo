@@ -1,0 +1,13 @@
+
+<suite name="Suite">
+  <test  name="Errorvalidationtest">
+    <classes>
+      <class name="Lotus.SeleniumFrameworkDesign.test.ErrorVlidations"/>
+    </classes>
+  </test> 
+  <test  name="Submitordertest">
+    <classes>
+        <class name="Lotus.SeleniumFrameworkDesign.test.StandAloneTest"/>
+    </classes>
+  </test>
+</suite> 

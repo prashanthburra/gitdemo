@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-25T19:23:24 IST" name="Suite" finished-at="2022-10-25T19:24:04 IST" duration-ms="40909">
+    <groups>
+    </groups>
+    <test started-at="2022-10-25T19:23:24 IST" name="Errorvalidationtest" finished-at="2022-10-25T19:23:58 IST" duration-ms="34761">
+      <class name="Lotus.SeleniumFrameworkDesign.test.ErrorVlidations">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Lotus.SeleniumFrameworkDesign.test.ErrorVlidations@53aac487]" started-at="2022-10-25T19:23:24 IST" name="LaunchApplication" finished-at="2022-10-25T19:23:38 IST" duration-ms="14503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="LoginerrorValidation()[pri:0, instance:Lotus.SeleniumFrameworkDesign.test.ErrorVlidations@53aac487]" started-at="2022-10-25T19:23:38 IST" name="LoginerrorValidation" finished-at="2022-10-25T19:23:38 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginerrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Lotus.SeleniumFrameworkDesign.test.ErrorVlidations@53aac487]" started-at="2022-10-25T19:23:38 IST" name="tearDown" finished-at="2022-10-25T19:23:55 IST" duration-ms="16241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Lotus.SeleniumFrameworkDesign.test.ErrorVlidations@53aac487]" started-at="2022-10-25T19:23:55 IST" name="LaunchApplication" finished-at="2022-10-25T19:23:56 IST" duration-ms="1426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:Lotus.SeleniumFrameworkDesign.test.ErrorVlidations@53aac487]" started-at="2022-10-25T19:23:56 IST" name="ProductErrorValidation" finished-at="2022-10-25T19:23:58 IST" duration-ms="2049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Lotus.SeleniumFrameworkDesign.test.ErrorVlidations@53aac487]" started-at="2022-10-25T19:23:58 IST" name="tearDown" finished-at="2022-10-25T19:23:58 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Lotus.SeleniumFrameworkDesign.test.ErrorVlidations -->
+    </test> <!-- Errorvalidationtest -->
+    <test started-at="2022-10-25T19:23:58 IST" name="Submitordertest" finished-at="2022-10-25T19:24:04 IST" duration-ms="6126">
+      <class name="Lotus.SeleniumFrameworkDesign.test.StandAloneTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Lotus.SeleniumFrameworkDesign.test.StandAloneTest@6bbe85a8]" started-at="2022-10-25T19:23:58 IST" name="LaunchApplication" finished-at="2022-10-25T19:24:00 IST" duration-ms="1347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="submitorder()[pri:0, instance:Lotus.SeleniumFrameworkDesign.test.StandAloneTest@6bbe85a8]" started-at="2022-10-25T19:24:00 IST" name="submitorder" finished-at="2022-10-25T19:24:02 IST" duration-ms="2774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Lotus.SeleniumFrameworkDesign.test.StandAloneTest@6bbe85a8]" started-at="2022-10-25T19:24:02 IST" name="tearDown" finished-at="2022-10-25T19:24:02 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Lotus.SeleniumFrameworkDesign.test.StandAloneTest@6bbe85a8]" started-at="2022-10-25T19:24:02 IST" name="LaunchApplication" finished-at="2022-10-25T19:24:04 IST" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="Orderhistory()[pri:0, instance:Lotus.SeleniumFrameworkDesign.test.StandAloneTest@6bbe85a8]" started-at="2022-10-25T19:24:04 IST" name="Orderhistory" finished-at="2022-10-25T19:24:04 IST" depends-on-methods="Lotus.SeleniumFrameworkDesign.test.StandAloneTest.submitorder" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Orderhistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Lotus.SeleniumFrameworkDesign.test.StandAloneTest@6bbe85a8]" started-at="2022-10-25T19:24:04 IST" name="tearDown" finished-at="2022-10-25T19:24:04 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Lotus.SeleniumFrameworkDesign.test.StandAloneTest -->
+    </test> <!-- Submitordertest -->
+  </suite> <!-- Suite -->
+</testng-results>
